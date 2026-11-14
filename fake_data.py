@@ -7,14 +7,14 @@ def cubo_sintetico(n=10, tam=128, seed=0):
     cubo = []
     
     for i in range(n):
-        # Ruido de fondo por cuadro
+        # Ruido por cuadro
         f = base + rng.normal(0, 0.3, (tam, tam))
         
-        # 1. Dibujar estrellas estáticas (misma posición en cada cuadro)
+        # Estrellas estaticas
         for y, x in estrellas:
             f[y - 1:y + 2, x - 1:x + 2] += 20
             
-        # 2. Dibujar el objeto en movimiento (trayectoria lineal)
+        # divuja el objeto en movimiento
         y, x = 20 + 8 * i, 30 + 6 * i 
         f[y - 1:y + 2, x - 1:x + 2] += 12
         
