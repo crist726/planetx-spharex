@@ -14,8 +14,7 @@ Usamos IA (Claude) como apoyo.
   los contratos entre módulos se redactaron con Claude; el equipo lo
   revisó y lo adaptó.
 - Código de referencia: Claude generó ejemplos de cada módulo. Cada
-  persona escribió su propia versión y usó el ejemplo solo para
-  comparar y corregir. Partes que adoptamos: <listar>.
+  persona escribió su propia versión y usó el ejemplo para comparar, corregir y realizar mejoras.
 - Revisión: usamos IA para <explicar errores / sugerir pruebas /
   mejorar redacción>, y decidimos nosotros qué aceptar.
 - README y guion del video: <herramienta>, revisados por el equipo.
