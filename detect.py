@@ -16,8 +16,6 @@ for i, f in enumerate(cubo_dif):
 etiquetas, n = ndimage.label(np.nan_to_num(f) > umbral)
 if n == 0:
 continue
-Plan del equipo: herramienta pública con imágenes SPHEREx (Planet X)
-Page 15 of 25
 for y, x in ndimage.center_of_mass(np.nan_to_num(f), etiquetas,
 range(1, n + 1)):
 filas.append({"cuadro": i, "x": x, "y": y})
