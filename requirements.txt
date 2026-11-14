@@ -1,0 +1,10 @@
+streamlit
+astropy
+astroquery
+pyvo
+reproject
+numpy
+scipy
+matplotlib
+pillow
+pandas
