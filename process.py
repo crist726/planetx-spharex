@@ -10,8 +10,6 @@ w.wcs.crpix = [tam_pix / 2, tam_pix / 2]
 w.wcs.cdelt = [-escala_arcsec / 3600, escala_arcsec / 3600]
 return w
 def preparar_cuadros(rutas, ra, dec, tam_deg, escala_arcsec=6.15):
-Plan del equipo: herramienta pública con imágenes SPHEREx (Planet X)
-Page 14 of 25
 tam_pix = int(tam_deg * 3600 / escala_arcsec)
 destino = wcs_comun(ra, dec, tam_pix, escala_arcsec)
 cubo, fechas = [], []
