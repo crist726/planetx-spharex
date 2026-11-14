@@ -8,3 +8,5 @@ scipy
 matplotlib
 pillow
 pandas
+requests
+pytest 
